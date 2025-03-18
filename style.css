@@ -1,0 +1,64 @@
+.container-fluid{
+    background-image: url("./assets/Background.png");
+    background-size: cover;
+    padding: 100px;
+}
+.section {
+    height: 100vh; /* Each section takes full viewport height */
+    padding: 20px;
+}
+
+body {
+    background-size: cover;
+}
+
+.section1, .section2, .section3 {
+    min-height: 100vh; /* Make each section full viewport height */
+    margin-bottom: 150px; /* Add space between sections */
+}
+
+html, body {
+    overflow-x: hidden; /* Only prevent horizontal scroll */
+    width: 100%;
+    height: auto; /* Allow vertical expansion */
+}
+.logo{
+    max-width: 700px;
+    max-height: 700px;
+}
+.portfolio-header {
+    letter-spacing: 0.3rem;
+}
+.subtitle {
+    color: #6c757d;
+    font-size: 75px;
+}
+
+.hero-text{
+    font-size: 300px;
+    font-family: 'Berlin Sans FB Demi Bold';
+    text-align: start;
+}
+.intro-text{
+    font-size: 4rem;
+    font-family: 'Berlin Sans FB Demi Bold';
+    text-align: start;
+}
+.edge-banner{
+    position: absolute;
+    right: 0; /* or left: 0 */
+    top: -350px; /* adjust vertical position */
+    transform: translateY(-50%); /* center vertically */
+    width: 700px; /* adjust size */
+    z-index: 1000; /* ensure it stays on top */
+    margin-right: -100px;
+    margin-bottom: 100px
+}
+
+@font-face {
+    font-family: 'Berlin Sans FB Demi Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berlin Sans FB Demi Bold'), url('/assets/BRLNSDB.woff') format('woff');
+  }
+  
