@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0"/>
+    <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0" />
     <title>Purev Resume</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -10,7 +10,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
         </script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+</head>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -170,7 +175,9 @@
                     personally architected and executed.<br><br> By leveraging cutting-edge cloud technology,Retro Toons
                     ensures minimal buffering and rapid content delivery, allowing users to immerse themselves in
                     vintage animation without interruption.<br><br>
-                    For more information about Retro Toons please read the <span><em><a class="green-text"href="https://docs.google.com/document/d/1wk-5yW6soVUn7EmOie5jaKnS8rAPfpCDO3DuJVhQj6Y/edit?usp=sharing"target="_blank">product proposal</a></em></span>
+                    For more information about Retro Toons please read the <span><em><a class="green-text"
+                                href="https://docs.google.com/document/d/1wk-5yW6soVUn7EmOie5jaKnS8rAPfpCDO3DuJVhQj6Y/edit?usp=sharing"
+                                target="_blank">product proposal</a></em></span>
                 </p>
 
             </div>
@@ -180,8 +187,33 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6"> 
+                <div class="col-12 col-md-6">
                     <img class="align-self-center" src="./assets/Retro-architecture.drawio.svg"></img>
+                </div>
+            </div>
+            <div class="row  justify-content-center">
+                <div class="col-12 col-md-6">
+                    <a href="https://www.retro-toons.com/" target="_blank">
+                    <div class="browser-window">
+                        <div class="browser-row">
+                            <div class="browser-column left">
+                                <span class="dot" style="background:#ED594A;"></span>
+                                <span class="dot" style="background:#FDD800;"></span>
+                                <span class="dot" style="background:#5AC05A;"></span>
+                            </div>
+                            <div class="browser-column middle">
+                                <input type="text" value="https://www.Retro-Toons.com">
+                            </div>
+                            <div class="browser-column right">
+                                <div style="float:right">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -193,19 +225,58 @@
                     <h1 class="skills-banner">Refrence</h1>
                 </div>
             </div>
-            <div class="row" style="display: flex; margin-bottom: 30px;">
-                <div class="col"><img class="skill-badge" style="color: black;" src="./assets/Layer 15.png"></div>
-                <div class="col"><img class="skill-badge" src="./assets/Layer 14.png"></div>
-                <div class="col"><img class="skill-badge" src="./assets/Layer 12.png"></div>
-                <div class="col"><img class="skill-badge" src="./assets/Layer 10.png"></div>
-                <div class="col"><img class="skill-badge" src="./assets/Layer 13.png"></div>
-                <div class="col"><img class="skill-badge" src="./assets/Layer 9.png"></div>
-            </div>
-            <div class="row" style="margin:0 0 150 200 ;">
-                <div class="col"><img class="skill-badge" src="./assets/Layer 11.png"></div>
-                <div class="col"><img class="skill-badge" src="./assets/Layer 17.png"></div>
-                <div class="col"><img class="skill-badge" src="./assets/Layer 7.png"></div>
-                <div class="col"><img class="skill-badge" src="./assets/Layer 16.png"></div>
+            <div id="testimonial" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-caption">
+                            <p> Throughout our projects, he has demonstrated the ability to seamlessly bridge the gap
+                                between technical development and business requirements. His experience as a software
+                                developer has provided him with a strong foundation in technical principles, while his
+                                proactive approach and dedication to understanding user needs have enabled him to
+                                contribute valuable insights during project planning and execution.
+                                His unique blend of technical skills and strategic vision will undoubtedly contribute 
+                                to the success of your product initiatives.
+                            </p>
+                            <img src="./assets/mazar.png" class="img-fluid">
+                            <div id="image-caption">Mazhar Shaikh</div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption">
+                            <p> There are many qualities I value in Mr. Davaadorj’s work: his friendliness toward all
+                                colleagues, his willingness to extend a helpful hand when others are stuck, and his
+                                courage to explore and adopt new technologies.
+                                I would especially like to highlight the latter point: Mr. Davaadorj excelled in
+                                discovering new, useful technologies,
+                                which he introduced and implemented in our team with obvious joy and keenness. Many of
+                                these technologies have found their way into our production environment.
+                            </p>
+                            <img src="./assets/phillip.png" class="img-fluid"></i>
+                            <div id="image-caption">Phillip Smith-Müller</div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption">
+                            <p> Mr Davaadorj is also a highly motivated and very committed employee who drives the
+                                project work forward in an exemplary manner. Thanks to his above-average work
+                                commitment, he always achieves commendable results. He has mastered the software
+                                programmes used by our company extremely well after only a short time, so that he could
+                                quickly be entrusted with difficult tasks. Mr Davaadorj’s performance has always been to
+                                our complete satisfaction.
+                            
+                                He is also always appreciated by customers as a reliable specialist. They have great
+                                confidence in him at all times.</p>
+                            <img src="./assets/wicke.png" class="img-fluid">
+                            <div id="image-caption">Wicke Fleischer</div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonial" data-slide="prev">
+                    <i class="bi bi-arrow-left black-icon"></i>
+                </a>
+                <a class="carousel-control-next" href="#testimonial" data-slide="next">
+                    <i class="bi bi-arrow-right black-icon"></i>
+                </a>
             </div>
         </div>
     </div>
