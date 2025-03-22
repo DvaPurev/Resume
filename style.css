@@ -4,13 +4,17 @@
 
 .container-fluid {
     background-image: url(./assets/Background.png);
-    background-size:auto;
+    background-size: auto;
     background-repeat: repeat;
     padding: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 body {
-    background-size: cover;
+    background-size: auto;
+    background-image: url(./assets/checkered.webp);
+    background-repeat: repeat;
 }
 
 .section1,
@@ -37,8 +41,9 @@ body {
 }
 
 .logo {
-    max-width: 400px;
-    max-height: 400px;
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust max-width as needed */
 }
 
 .skill-badge {
@@ -70,7 +75,7 @@ body {
 }
 
 .hero-text {
-    font-size: 250px;
+    font-size: 13rem;
     font-family: 'Brownwood NF';
     text-align: start;
 }
@@ -107,7 +112,7 @@ body {
     /* adjust size */
     z-index: 1000;
     /* ensure it stays on top */
-    margin-right: -100px;
+    margin-right: -85px;
     margin-bottom: 100px
 }
 
@@ -248,29 +253,4 @@ input[type=text] {
     font-style: normal;
     font-weight: normal;
     src: url('/assets/FuturaCyrillicBook.ttf') format('ttf');
-}
-
-@media (max-width: 1000px){
-    
-    .logo {
-        max-width: 450px;
-        max-height: 450px;
-    }
-    .hero-text {
-        font-size: 200px;
-        font-family: 'Brownwood NF';
-        text-align: start;
-    }
-}
-@media (max-width: 1920px){
-    
-    .logo {
-        max-width: 600px;
-        max-height: 600px;
-    }
-    .hero-text {
-        font-size: 300px;
-        font-family: 'Brownwood NF';
-        text-align: start;
-    }
 }
