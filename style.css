@@ -5,6 +5,7 @@
 .container-fluid {
     background-image: url(./assets/Background.png);
     background-size:auto;
+    background-repeat: repeat;
     padding: 100px;
 }
 
@@ -249,7 +250,7 @@ input[type=text] {
     src: url('/assets/FuturaCyrillicBook.ttf') format('ttf');
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1000px){
     
     .logo {
         max-width: 450px;
