@@ -3,25 +3,13 @@
 }
 
 .container-fluid {
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPgogIDxmaWx0ZXIgaWQ9Im5vaXNlIj4KICAgIDxmZVR1cmJ1bGVuY2UgdHlwZT0iZnJhY3RhbE5vaXNlIiBiYXNlRnJlcXVlbmN5PSIwLjYiIG51bU9jdGF2ZXM9IjMiLz4KICA8L2ZpbHRlcj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWx0ZXI9InVybCgjbm9pc2UpIiBmaWxsPSJ0cmFuc3BhcmVudCIvPgo8L3N2Zz4=");
-    background-size: cover;
+    background-image: url(./assets/Background.png);
+    background-size:auto;
     padding: 100px;
-}
-
-.section {
-    height: 100vh;
-    /* Each section takes full viewport height */
-    padding: 20px;
 }
 
 body {
     background-size: cover;
-}
-
-.footer {
-    background: white;
-    grid-column: 1 / -1;
-    margin-top: auto;
 }
 
 .section1,
@@ -34,7 +22,7 @@ body {
 .section8 {
     min-height: 100vh;
     /* Make each section full viewport height */
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     /* Add space between sections */
 }
 
@@ -48,19 +36,19 @@ body {
 }
 
 .logo {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .skill-badge {
-    max-width: 230px;
-    max-height: 230px;
+    max-width: 150px;
+    max-height: 150px;
     flex-direction: row;
-    float: left;
+    float: middle;
 }
 
 .portfolio-header {
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
 }
 
 .hero-subtitle {
@@ -70,7 +58,7 @@ body {
 }
 
 .small-text {
-    font-size: 40px !important;
+    font-size: 20px !important;
     font-family: 'FuturaCyrillicBook';
 }
 
@@ -87,7 +75,7 @@ body {
 }
 
 .skills-banner {
-    font-size: 75px;
+    font-size: 55px;
     font-family: 'Brownwood NF';
     margin-bottom: 30px;
     color: #2a746d !important;
@@ -101,7 +89,7 @@ body {
 }
 
 .intro-text {
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Brownwood NF';
     text-align: start;
 }
@@ -150,16 +138,9 @@ body {
     font-size: 70px;
 }
 
-.browser-window {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-}
-
 .browser-row {
     margin-top: 50px;
     padding: 10px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
     background-image: url(./assets/gif1.gif);
     background-size: contain;
     background-repeat: no-repeat;
@@ -220,19 +201,6 @@ input[type=text] {
     width: 300px;
     height: 300px;
 }
-@media(max-width:767px) {
-    .carousel-caption {
-        position: initial;
-        z-index: 10;
-        padding: 3rem 2rem;
-        color: rgba(78, 77, 77, 0.856);
-        text-align: center;
-        font-size: 0.7rem;
-        font-style: italic;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-}
 
 .carousel-caption img {
     margin-top: 2rem;
@@ -240,32 +208,10 @@ input[type=text] {
     vertical-align: bottom !important;
 }
 
-@media(max-width:767px) {
-    .carousel-caption img {
-        width: 4rem;
-        border-radius: 4rem;
-        margin-top: 1rem;
-    }
-}
-
 #image-caption {
     font-style: normal;
     font-size: 1rem;
     margin-top: 0.5rem;
-}
-
-@media(max-width:767px) {
-    #image-caption {
-        font-style: normal;
-        font-size: 0.6rem;
-        margin-top: 0.5rem;
-    }
-}
-
-@media(max-width:767px) {
-    i {
-        padding: 0.8rem;
-    }
 }
 
 .carousel-control-prev {
@@ -301,4 +247,29 @@ input[type=text] {
     font-style: normal;
     font-weight: normal;
     src: url('/assets/FuturaCyrillicBook.ttf') format('ttf');
+}
+
+@media (max-width: 1440px){
+    
+    .logo {
+        max-width: 450px;
+        max-height: 450px;
+    }
+    .hero-text {
+        font-size: 200px;
+        font-family: 'Brownwood NF';
+        text-align: start;
+    }
+}
+@media (max-width: 1920px){
+    
+    .logo {
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .hero-text {
+        font-size: 200px;
+        font-family: 'Brownwood NF';
+        text-align: start;
+    }
 }
